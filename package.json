@@ -1,7 +1,32 @@
 {
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "jquery": "^3.6.0",
     "popper.js": "^1.16.0",
     "save": "^2.4.0"
-  }
+  },
+  "name": "y",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "webpack": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilcon/food-festival.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilcon/food-festival/issues"
+  },
+  "homepage": "https://github.com/bilcon/food-festival#readme",
+  "keywords": []
 }
